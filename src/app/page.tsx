@@ -1,19 +1,27 @@
 import React from "react";
 import Image from "next/image"; // Use this if you are using Next.js. Otherwise, just use 'img' tag in normal React.
+import Navbar from "../app/Navbar";
 
 const LandingPage = () => {
   return (
     <div>
+
+
+
+<Navbar />
       {/* Header Section */}
       <header className="bg-blue-600 text-white py-12 text-center">
         <h1 className="text-4xl font-bold">Welcome to Our Online Bookstore</h1>
         <p className="text-lg mt-4">Explore a wide range of books and find your next great read.</p>
+
+        
         <a
           href="#featured"
           className="mt-6 inline-block px-6 py-3 bg-yellow-500 text-black font-semibold rounded-md shadow-lg hover:bg-yellow-400 transition-colors"
         >
           Browse Our Books
         </a>
+
       </header>
 
       {/* Featured Books Section */}
